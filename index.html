@@ -14,22 +14,22 @@
             <nav>
                 <u1>
                     <li> 
-                        <a href="#"> <strong>Home</strong> </a>  
+                        <a id="text" href="#home"> <strong>Home</strong> </a>  
                     </li>
                     <li>
-                        <a href="#"> <strong>Projects</strong> </a>  
+                        <a id="text" href="#projects"> <strong>Projects</strong> </a>  
                     </li>
                     <li>
-                        <a href="#"> <strong>Contact</strong> </a>  
+                        <a id="text" href="#contact"> <strong>Contact</strong> </a>  
                     </li>
                 </u1>
             </nav>
         </header>
         
-        <h1 class="title">
+        <h1 id="text" class="title">
             Hi, I'm Henry.
         </h1>
-        <h2 class="subtitle">
+        <h2 id="text" class="subtitle">
             Aspiring Full-Stack Developer
         </h2>
 
@@ -66,25 +66,25 @@
                     &nbsp;<br>
                     &nbsp;<br>
                     &nbsp;<br>
-                    &nbsp;<br>
                     
-                    // This is my first time making a website using HTML and CSS and I had a blast! Please check out my Github repository to see how I made it. =)
+                    // This is my first time making a website using HTML and CSS and I had a blast! Please check out my Github repository to see how I made it. =)<br>
+                    &nbsp;<br>
+                    // P.S. refresh the page to see a color change!
                 </p>
             </div>
     
             <div class="boxheader">
-            </div>
+                <div class="dot1">
+                </div>
 
-            <div class="dot1">
-            </div>
+                <div class="dot2">
+                </div>
 
-            <div class="dot2">
-            </div>
+                <div class="dot3">
+                </div>
 
-            <div class="dot3">
-            </div>
-
-            <div class="search">
+                <div class="search">
+                </div>
             </div>
         </div>
         
@@ -97,5 +97,16 @@
             </a>
         </footer>
 
+        <script>
+            var colorWheel = ["#719ACF", "#CFBB71", "#CF9A71", "#CF7171", "#8FCF71", "#7E71CF", "#9D98BE", "#D486B1", "#FFFFFF"];
+            var randomNumber = colorWheel[Math.floor(Math.random()*colorWheel.length)];
+
+            var elms = document.querySelectorAll("[id='text']");
+ 
+            for(var i = 0; i < elms.length; i++) 
+            {
+                elms[i].style.color = randomNumber;
+            }
+        </script>
     </body>
 </html>
