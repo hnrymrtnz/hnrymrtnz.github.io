@@ -1,112 +1,54 @@
 <!DOCTYPE html>
-<html>
+<hmtl>
     <head>
         <meta charset="utf-8">
         <title>Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Public+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
 
-    <body class="body">
-        <header class="header">
+    <body>
+        <head>
             <nav>
-                <u1>
-                    <li> 
-                        <a id="text" href="#home"> <strong>Home</strong> </a>  
+                <u1 class="nav-cont">
+                    <l1 class="nav-item" id="home">
+                        <a href="#">Home</a>
+                    </l1>
+                    <li class="nav-item">
+                        <a href="#">Coursework</a>
                     </li>
-                    <li>
-                        <a id="text" href="#projects"> <strong>Projects</strong> </a>  
-                    </li>
-                    <li>
-                        <a id="text" href="#contact"> <strong>Contact</strong> </a>  
-                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">Projects</a>
+                    </l1>
+
+                    <li class="nav-item">
+                        <a href="#">Resume</a>
+                    </l1>
+
+                    <li class="nav-item">
+                        <a href="#">Contact</a>
+                    </l1>
                 </u1>
             </nav>
-        </header>
-        
-        <h1 id="text" class="title">
-            Hi, I'm Henry.
-        </h1>
-        <h2 id="text" class="subtitle">
-            Aspiring Full-Stack Developer
-        </h2>
+        </head>
 
-        <div class="container">
-            <div class="box">
-                <p>
-                    ----
-                </p>
-                <p class="desc">
-                    String <strong>name</strong> = "Henry Martinez";<br>
-                </p>
-                <p class="desc">
-                    int <strong>age</strong> = 19;<br>
-                </p>
-
-                <p class="desc">
-                    String <strong>school</strong> = "California State University, Northridge"; <br>
-
-                </p>
-                <p class="desc">
-                    String[] <strong>interests</strong> = new String["artificial intelligence", "data science", "front-end development", "back-end development", "ui design"];<br>
-                </p>
-
-                <p class="desc">
-                    String <Strong>aboutMe</Strong> = <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; "Hello! My name is Henry and I'm currently a sophomore at California State University, Northridge. My interests include artificial intelligence, data science, front and back-end developing, and much more, however, my main goal is to become a full-stack developer. More than anything, I enjoy satiating my curiosity with each passing day and aspire to learn as much as I possibly can about all things related to computer science!";
-                </p>
-
-                <p class="desc">
-                    System.out.println(desc);
-                </p>
-
-                <p class="desc">
-                    &nbsp;<br>
-                    &nbsp;<br>
-                    &nbsp;<br>
-                    
-                    // This is my first time making a website using HTML and CSS and I had a blast! Please check out my Github repository to see how I made it. =)<br>
-                    &nbsp;<br>
-                    // P.S. refresh the page to see a color change!
-                </p>
-            </div>
-    
-            <div class="boxheader">
-                <div class="dot1">
-                </div>
-
-                <div class="dot2">
-                </div>
-
-                <div class="dot3">
-                </div>
-
-                <div class="search">
-                </div>
-            </div>
+        <div class="title">
+            <h1> Hi, I'm <u class="name"> Henry.</u></h1>
+            <h1 class="subtitle"> Aspiring Full-Stack Developer </h1>
+            <div class="line"></div>
         </div>
-        
-        <footer class="footer">
-            <a href="https://github.com/hnrymrtnz"> <img class="github" alt="Github" src="https://media.discordapp.net/attachments/882741470468136963/1033856002476482650/GitHub_logo.png?width=898&height=898" width="35" height="35" style="margin: 10px 10px 10px 10px;">
-            </a>
-            
+    
+        <div class="butpos">
+            <button class="button" type="button"> About Me </button>
+        </div>
 
-            <a href="https://www.linkedin.com/in/hnrymrtnz/"> <img class="linkedin" alt="Linkedin" src="https://media.discordapp.net/attachments/882741470468136963/1033856002895917116/linkedin-icon-logo-png-transparent.png?width=898&height=898" width="35" height="35" style="margin: 10px 10px 10px 10px;">
-            </a>
+        <footer>
+            <div>
+                <a href="https://github.com/hnrymrtnz/hnrymrtnz.github.io"> Made with love by Henry Martinez 🤗</a>
+            </div>
         </footer>
-
-        <script>
-            var colorWheel = ["#719ACF", "#CFBB71", "#CF9A71", "#CF7171", "#8FCF71", "#7E71CF", "#9D98BE", "#D486B1", "#FFFFFF"];
-            var randomNumber = colorWheel[Math.floor(Math.random()*colorWheel.length)];
-
-            var elms = document.querySelectorAll("[id='text']");
- 
-            for(var i = 0; i < elms.length; i++) 
-            {
-                elms[i].style.color = randomNumber;
-            }
-        </script>
     </body>
-</html>
+</hmtl>

@@ -16,6 +16,8 @@ body{
     opacity: 100%;
     
 }  
+.nav-item {
+    padding: 1em;
 
 .header * {  
     display:inline;
