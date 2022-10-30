@@ -64,23 +64,29 @@ body {
     color: #ffffff;
 
     text-align: center;
-    margin-top: 3cm;
+    margin-top: 2cm;
+
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .coursework table{
-    margin: auto;
-
-    border: 10px;
     border-style: transparent;
     border-spacing: 50px;
-    border-image-slice: 1;
-    border-radius: 10px;
+
+    margin-top:-20px;
+    margin-left:20%;
+    margin-right:20%;
 
     background: transparent;
 }
 
 .coursework tr {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
     font-weight:400;
     padding: 15px;
@@ -90,6 +96,7 @@ body {
 
 .coursework tr.tabhead {
     font-size: 25px;
+    text-align: left;
 }
 
 .coursework tr.tabhead th{
@@ -97,6 +104,11 @@ body {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.icons{
+    width: 25px;
+    height: 25px;
 }
 
 footer{
