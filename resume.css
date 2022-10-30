@@ -1,0 +1,114 @@
+body {
+    background-color: #141820;
+}
+
+.nav-cont {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none;
+
+    text-align: center;
+
+    border: 0px;
+}
+
+.nav-cont a{
+    text-decoration: none;
+
+    background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.nav-cont a:visited{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.nav-cont a:hover{
+    color:#FFFFFF;
+}
+
+.nav-cont a:focus{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.nav-cont a:hover, a:active{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.resume {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+
+    text-align: left;
+    margin-top: 2cm;
+
+    animation: fadein 2s;
+}
+
+.pdf{
+    margin-left:25%;
+    margin-right:25%;
+
+    height:550px;
+    width:50%;
+}
+
+.title{
+    text-align: center;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;;
+    text-align: center;
+    opacity: 100%;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: linear-gradient(to left, #7F7FD5, #86A8E7, #91EAE4);
+    -webkit-background-clip:padding-box;
+    background-clip: padding-box;
+}
+footer a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color:#141820;
+    
+    transition-duration: 0.4s;
+}
+footer a:hover{
+    color:#FFFFFF;
+}
