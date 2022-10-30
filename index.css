@@ -60,15 +60,22 @@ body {
 .title {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 45px;
     color: #ffffff;
+    text-align: center;
 
-    margin-top: 16%;
-    margin-bottom: 16%;
-    margin-left: 29%;
+    margin-top: 6cm;
+    margin-left: 25%;
     margin-right: 25%;
+}
 
-    display: inline-block;
+.title h1, button{
+    animation: fadein 2s;;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .name {
@@ -85,10 +92,8 @@ body {
 }
 
 .butpos {
-    float: right;
-    margin-top: -26%;
-    margin-bottom: 17%;
-    margin-right: 32%;
+    text-align: center;
+    margin-top: 0%;
 }
 
 .button {
@@ -112,6 +117,8 @@ body {
 
     cursor: pointer;
     transition-duration: 0.4s;
+
+    display:inline;
 }
 
 .button:hover{
