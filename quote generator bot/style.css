@@ -42,6 +42,11 @@ body {
     font-family: 'Playfair Display';
     color: white;
 }
+
+.container a {
+    color: #e54f4f;
+}
+
 .container img {
     width: 150px;
     height: 150px;
