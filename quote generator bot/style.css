@@ -9,7 +9,7 @@ body {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    height: 75vh;
+    height: 100vh;
 
     color:rgb(25, 25, 25);
 }
@@ -26,7 +26,7 @@ body {
     border-width: 2px;
     border-radius: 10px;
 
-    background-color: rgb(25, 25, 25);
+    background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
     padding: 50px 50px 50px 50px;
 
 }
@@ -44,7 +44,8 @@ body {
 }
 
 .container a {
-    color: #e54f4f;
+    text-decoration: underline;
+    color: white;
 }
 
 .container img {
