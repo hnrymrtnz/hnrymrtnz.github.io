@@ -1,4 +1,4 @@
-const lastfm_url = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=hnrymrtnz&api_key=4478868069a1b7995d4ab57e24abbc16&format=json&limit=5';
+const lastfm_url = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=hnrymrtnz&api_key=4478868069a1b7995d4ab57e24abbc16&format=json&limit=5';
 
 document.addEventListener("DOMContentLoaded", function () {
     fetch(lastfm_url)
