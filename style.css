@@ -228,9 +228,9 @@ li {
 
 
 /* contact */
-.contact {
-    background-color: #1e1f25;
-    color:rgb(255, 255, 255);
+.resume {
+    background-color:rgb(255, 255, 255);
+    color:rgb(25, 25, 25);
 }
 
 .contact p {
@@ -242,6 +242,43 @@ li {
     text-decoration:underline;
 }
 
-.contact .content-wrap {
+
+/* music */
+.music {
+    background-color: #1e1f25;
+    color:rgb(255, 255, 255);
+}
+
+.music .content-wrap {
     border-color: #91EAE4;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.track img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#music p {
+    margin-bottom: 30px;
+}
+
+#tracks-container div {
+    font-size: 17px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: lighter;
+}
+
+#tracks-container strong {
+    font-size: 17px;
+}
+
+#tracks-container small {
+    font-size: 13px;
+    font-style: italic;
 }
